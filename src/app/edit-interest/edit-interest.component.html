@@ -1,0 +1,10 @@
+<h2>Edit:</h2>
+        <div>
+            <label>interest:
+                <input [(ngModel)]="currentValue" />
+                <button (click)="changeEditValue()">Save</button>
+                <button (click)="cancel()" >Cancel</button>
+            </label>
+        </div>
+
+        <p>{{ 1.23 | currency: 'EUR': 'symbol' }} </p>
